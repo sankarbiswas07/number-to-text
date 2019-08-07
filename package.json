@@ -1,0 +1,12 @@
+{
+    "name": "number-to-text",
+    "version": "0.0.1",
+    "description": "Tiny Test project module of  npm package 'number-to-text'",
+    "main": "index.js",
+    "keywords": [],
+    "author": "Sankar Prasad Biswas",
+    "license": "MIT",
+    "devDependencies": {
+       
+    }
+}

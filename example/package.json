@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Tiny Test project module to test npm package 'number-to-text'",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start2": "nodemon app2.js",
+    "test": "nodemon --inspect=0.0.0.0:9229 app.js",
+    "win-kill": "cmd \"/C TASKKILL /IM node.exe /F\""
+  },
+  "keywords": [],
+  "author": "Sankar Prasad Biswas",
+  "license": "MIT",
+  "dependencies": {
+    "add-mate": "^1.4.0",
+    "node-phantom": "^0.2.5",
+    "nodemon": "^1.18.10",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
